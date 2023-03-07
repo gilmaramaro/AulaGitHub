@@ -17,6 +17,8 @@
 		75B51DB029B7C23E00EFA907 /* AulaGitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DAF29B7C23E00EFA907 /* AulaGitHubUITests.swift */; };
 		75B51DB229B7C23E00EFA907 /* AulaGitHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DB129B7C23E00EFA907 /* AulaGitHubUITestsLaunchTests.swift */; };
 		75B51DBF29B7C39C00EFA907 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DBE29B7C39C00EFA907 /* Anime.swift */; };
+		75B51DC229B7DC6400EFA907 /* MyTableViewCellXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DC029B7DC6400EFA907 /* MyTableViewCellXIB.swift */; };
+		75B51DC329B7DC6400EFA907 /* MyTableViewCellXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B51DC129B7DC6400EFA907 /* MyTableViewCellXIB.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		75B51DAF29B7C23E00EFA907 /* AulaGitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaGitHubUITests.swift; sourceTree = "<group>"; };
 		75B51DB129B7C23E00EFA907 /* AulaGitHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaGitHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		75B51DBE29B7C39C00EFA907 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		75B51DC029B7DC6400EFA907 /* MyTableViewCellXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCellXIB.swift; sourceTree = "<group>"; };
+		75B51DC129B7DC6400EFA907 /* MyTableViewCellXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCellXIB.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				75B51D8E29B7C23D00EFA907 /* AppDelegate.swift */,
 				75B51D9029B7C23D00EFA907 /* SceneDelegate.swift */,
 				75B51D9229B7C23D00EFA907 /* ViewController.swift */,
+				75B51DC029B7DC6400EFA907 /* MyTableViewCellXIB.swift */,
+				75B51DC129B7DC6400EFA907 /* MyTableViewCellXIB.xib */,
 				75B51D9429B7C23D00EFA907 /* Main.storyboard */,
 				75B51DBE29B7C39C00EFA907 /* Anime.swift */,
 				75B51D9729B7C23E00EFA907 /* Assets.xcassets */,
@@ -237,6 +243,7 @@
 				75B51D9B29B7C23E00EFA907 /* LaunchScreen.storyboard in Resources */,
 				75B51D9829B7C23E00EFA907 /* Assets.xcassets in Resources */,
 				75B51D9629B7C23D00EFA907 /* Main.storyboard in Resources */,
+				75B51DC329B7DC6400EFA907 /* MyTableViewCellXIB.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +271,7 @@
 				75B51DBF29B7C39C00EFA907 /* Anime.swift in Sources */,
 				75B51D9329B7C23D00EFA907 /* ViewController.swift in Sources */,
 				75B51D8F29B7C23D00EFA907 /* AppDelegate.swift in Sources */,
+				75B51DC229B7DC6400EFA907 /* MyTableViewCellXIB.swift in Sources */,
 				75B51D9129B7C23D00EFA907 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
