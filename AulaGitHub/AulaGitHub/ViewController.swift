@@ -101,3 +101,11 @@ extension ViewController: UITableViewDataSource {
         return UITableViewCell()
     }
 }
+
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let screen = storyboard?.instantiateViewController(withIdentifier: "screen2")
+        
+        
+    }
+}
