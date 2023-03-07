@@ -16,6 +16,7 @@
 		75B51DA629B7C23E00EFA907 /* AulaGitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DA529B7C23E00EFA907 /* AulaGitHubTests.swift */; };
 		75B51DB029B7C23E00EFA907 /* AulaGitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DAF29B7C23E00EFA907 /* AulaGitHubUITests.swift */; };
 		75B51DB229B7C23E00EFA907 /* AulaGitHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DB129B7C23E00EFA907 /* AulaGitHubUITestsLaunchTests.swift */; };
+		75B51DBF29B7C39C00EFA907 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DBE29B7C39C00EFA907 /* Anime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		75B51DAB29B7C23E00EFA907 /* AulaGitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AulaGitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B51DAF29B7C23E00EFA907 /* AulaGitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaGitHubUITests.swift; sourceTree = "<group>"; };
 		75B51DB129B7C23E00EFA907 /* AulaGitHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaGitHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75B51DBE29B7C39C00EFA907 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				75B51D9029B7C23D00EFA907 /* SceneDelegate.swift */,
 				75B51D9229B7C23D00EFA907 /* ViewController.swift */,
 				75B51D9429B7C23D00EFA907 /* Main.storyboard */,
+				75B51DBE29B7C39C00EFA907 /* Anime.swift */,
 				75B51D9729B7C23E00EFA907 /* Assets.xcassets */,
 				75B51D9929B7C23E00EFA907 /* LaunchScreen.storyboard */,
 				75B51D9C29B7C23E00EFA907 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B51DBF29B7C39C00EFA907 /* Anime.swift in Sources */,
 				75B51D9329B7C23D00EFA907 /* ViewController.swift in Sources */,
 				75B51D8F29B7C23D00EFA907 /* AppDelegate.swift in Sources */,
 				75B51D9129B7C23D00EFA907 /* SceneDelegate.swift in Sources */,
@@ -451,6 +455,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = GilmarAmaro.AulaGitHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,6 +485,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = GilmarAmaro.AulaGitHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
