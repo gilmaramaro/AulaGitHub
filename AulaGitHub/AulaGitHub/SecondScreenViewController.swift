@@ -18,6 +18,7 @@ class SecondScreenViewController: UIViewController {
         super.viewDidLoad()
         setupAnime2()
     }
+    
     func setupAnime2() {
         myImage.image = UIImage(named: connectionScreen2.imageAnime)
         myLabel.text = connectionScreen2.descriptionAnime

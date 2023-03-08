@@ -198,16 +198,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MC9-54-xLb">
-                                <rect key="frame" x="14" y="715" width="361" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next"/>
-                                <connections>
-                                    <action selector="myButton:" destination="9fJ-0g-B64" eventType="touchUpInside" id="9Xy-0P-f4X"/>
-                                    <action selector="myButton:" destination="BAF-DR-x0E" eventType="touchUpInside" id="fgD-c8-dDo"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7Z5-V0-qyw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
