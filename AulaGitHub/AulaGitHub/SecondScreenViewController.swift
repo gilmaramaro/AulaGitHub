@@ -8,22 +8,25 @@
 import UIKit
 
 class SecondScreenViewController: UIViewController {
-
+    
+    @IBOutlet weak var myImage: UIImageView!
+    @IBOutlet weak var myLabel: UILabel!
+    
+    var connectionScreen2: Anime = Anime()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupAnime2()
+    }
+    func setupAnime2() {
+        myImage.image = UIImage(named: connectionScreen2.imageAnime)
+        myLabel.text = connectionScreen2.descriptionAnime
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func myButton(_ sender: Any) {
+        if let screen2 = storyboard?.instantiateViewController(withIdentifier: "screen3") as? ThirdScreenViewController {
+            screen2.connectionScreen3 = self.connectionScreen2
+            self.navigationController?.pushViewController(screen2, animated: true)
+        }
     }
-    */
-
 }

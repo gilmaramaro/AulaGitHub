@@ -8,22 +8,26 @@
 import UIKit
 
 class FourthScreenViewController: UIViewController {
-
+    
+    @IBOutlet weak var myImage: UIImageView!
+    @IBOutlet weak var myLabel: UILabel!
+    
+    var connectionScreen4: Anime = Anime()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupAnime4()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupAnime4() {
+        myImage.image = UIImage(named: connectionScreen4.imageCharacter2)
+        myLabel.text = connectionScreen4.descriptionCharacter2
     }
-    */
-
+    
+    @IBAction func myButton(_ sender: Any) {
+        if let screen4 = storyboard?.instantiateViewController(withIdentifier: "screen5") as? FiveScreenViewController {
+            screen4.connectionScreen5 = self.connectionScreen4
+            self.navigationController?.pushViewController(screen4, animated: true)
+        }
+    }
 }

@@ -22,6 +22,7 @@
 		75B51DC529B7EDE500EFA907 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DC429B7EDE500EFA907 /* SecondScreenViewController.swift */; };
 		75B51DC729B7EDFD00EFA907 /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DC629B7EDFD00EFA907 /* ThirdScreenViewController.swift */; };
 		75B51DC929B7EE1500EFA907 /* FourthScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DC829B7EE1500EFA907 /* FourthScreenViewController.swift */; };
+		75B51DCF29B80A6C00EFA907 /* FiveScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B51DCE29B80A6C00EFA907 /* FiveScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		75B51DC429B7EDE500EFA907 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 		75B51DC629B7EDFD00EFA907 /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenViewController.swift; sourceTree = "<group>"; };
 		75B51DC829B7EE1500EFA907 /* FourthScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthScreenViewController.swift; sourceTree = "<group>"; };
+		75B51DCE29B80A6C00EFA907 /* FiveScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				75B51DC029B7DC6400EFA907 /* MyTableViewCellXIB.swift */,
 				75B51DC129B7DC6400EFA907 /* MyTableViewCellXIB.xib */,
 				75B51D9429B7C23D00EFA907 /* Main.storyboard */,
+				75B51DCE29B80A6C00EFA907 /* FiveScreenViewController.swift */,
 				75B51DC429B7EDE500EFA907 /* SecondScreenViewController.swift */,
 				75B51DC629B7EDFD00EFA907 /* ThirdScreenViewController.swift */,
 				75B51DC829B7EE1500EFA907 /* FourthScreenViewController.swift */,
@@ -281,6 +284,7 @@
 				75B51DBF29B7C39C00EFA907 /* Anime.swift in Sources */,
 				75B51DC729B7EDFD00EFA907 /* ThirdScreenViewController.swift in Sources */,
 				75B51D9329B7C23D00EFA907 /* ViewController.swift in Sources */,
+				75B51DCF29B80A6C00EFA907 /* FiveScreenViewController.swift in Sources */,
 				75B51DC929B7EE1500EFA907 /* FourthScreenViewController.swift in Sources */,
 				75B51D8F29B7C23D00EFA907 /* AppDelegate.swift in Sources */,
 				75B51DC229B7DC6400EFA907 /* MyTableViewCellXIB.swift in Sources */,

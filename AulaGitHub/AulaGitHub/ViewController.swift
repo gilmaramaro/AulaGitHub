@@ -82,7 +82,7 @@ class ViewController: UIViewController {
         arrayAnime.append(anime4)
         
         myTableView.dataSource = self
-        
+        myTableView.delegate = self
         let uiNIB = UINib(nibName: "MyTableViewCellXIB", bundle: nil)
         myTableView.register(uiNIB, forCellReuseIdentifier: "CellXIB")
     }
@@ -104,8 +104,9 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let screen = storyboard?.instantiateViewController(withIdentifier: "screen2")
-        
-        
+        if let screen = storyboard?.instantiateViewController(withIdentifier: "screen2") as? SecondScreenViewController {
+            screen.connectionScreen2 = arrayAnime[indexPath.row]
+            self.navigationController?.pushViewController(screen, animated: true)
+        }
     }
 }
